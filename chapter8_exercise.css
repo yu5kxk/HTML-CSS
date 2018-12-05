@@ -1,0 +1,45 @@
+.blog{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: verbana;
+}
+.blog-box{
+	width: 300px;
+	height: auto;
+	margin: 7px 7px;
+	border: 1px lightgray solid;
+	float: left;
+}
+.blog-title,.text{
+	font-weight: bolder;
+	color: gray;
+}
+.blog-image{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+.pop{
+	position: absolute;
+	padding: 0px;
+	background-color: orange;
+	color: #fff;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+	.blog{
+		width: 90%;
+	}
+	.blog-box{
+		width: 90%;
+		float: none;
+	}
+	.box2{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
